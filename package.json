@@ -1,21 +1,14 @@
 {
-  "name": "node",
+  "name": "deno-react-project",
   "version": "1.0.0",
-  "description": "Node.js Server",
-  "main": "index.js",
-  "author": "node",
-  "repository": "node",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "start": "node index.js"
-  },
+  "type": "module",
   "dependencies": {
-    "ws": "^8.14.2",
-    "axios": "^1.6.2"
+    "npm:react": "^18.2.0",
+    "npm:react-dom": "^18.2.0",
+    "npm:react/jsx-runtime": "^18.2.0",
+    "denotsx": "^0.1.0"
   },
-  "engines": {
-    "node": ">=14"
+  "scripts": {
+    "dev": "deno run --allow-net deno.tsx"
   }
-
 }
